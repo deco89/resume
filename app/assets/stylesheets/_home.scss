@@ -1,0 +1,21 @@
+.home_title {
+  font-size: var(--h1-font-size);
+  line-height: 1.24;
+  padding-left: 500px;
+  position: relative;
+}
+
+.home_desription {
+  line-height: 2.125;
+  margin-block: 40px 60px;
+  padding-left: 500px;
+}
+
+.profile_pic {
+  width: 500px;
+  border-radius: 30px;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+
+}

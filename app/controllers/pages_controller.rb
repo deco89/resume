@@ -1,16 +1,6 @@
 class PagesController < ApplicationController
-
-  def home
-
-  end
-
-  def contact
-
-  end
-
-  def about
-
-  end
-
-
+  def home; end
+  def about; end
+  def project; end
+  def contact; end
 end
