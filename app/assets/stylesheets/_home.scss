@@ -1,20 +1,35 @@
-.home-title{
-  border: auto;
-  height: 100%;
+body {
+
+}
+
+.container {
+  background-color: rgba(184, 184, 179, 0.2);
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   display: flex;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
-.profile-pic {
-margin: auto;
+#profile img {
+  width: 500px;
+  border-radius: 50px;
+  margin: 50px auto;
 }
-.home-title img{
-  width: 440px;
-  border-radius: 30px;
-  // height: 100%;
-  // object-fit: cover;
-  // z-index: 1;
-  // display: flex;
-  // margin: none;
 
+.about {
+  padding: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.about p {
+
+}
+
+main {
+  margin: 32px;
 }
